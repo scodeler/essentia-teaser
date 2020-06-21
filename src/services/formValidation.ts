@@ -1,0 +1,9 @@
+import React from 'react'
+
+class Validate{
+  email(value:string){
+    return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)
+  }
+}
+
+export default Validate
