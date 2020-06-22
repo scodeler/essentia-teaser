@@ -30,6 +30,9 @@ const Home = () => {
       <div className="content">
         <h1 className="logo">Essengia Energia</h1>
         <h2 className="content-title">Em breve</h2>
+        <p className="content-description">
+          Estamos criando um novo site e será lançado em breve.
+        </p>
         <div className="content-text">
           <form method="post" className="content-form" onSubmit={ signUp }>
             <h3 className="content-formTitle">Inscreva-se para saber das novidades.</h3>
